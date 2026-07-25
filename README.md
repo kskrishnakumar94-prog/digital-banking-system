@@ -1,14 +1,12 @@
 # 🏦 Digital Banking System (Full Stack)
 
-[![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/kskrishnakumar94-prog/digital-banking-system/actions/workflows/ci.yml/badge.svg)](https://github.com/kskrishnakumar94-prog/digital-banking-system/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 A full-stack digital banking web application built with **React**, **Node.js/Express**, and **PostgreSQL**.
 
 > **New to this repo?** Read [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the design decisions behind the atomicity/idempotency/auth model, and an honest list of what's still missing for real production use (scaling gaps, compliance, monitoring). It's written to be the first thing a reviewer or interviewer reads.
 >
-> **After pushing to GitHub:** replace `YOUR_USERNAME/YOUR_REPO` in the CI badge URL above with your actual repo path so the badge renders correctly.
-
 ## Features
 
 | Requirement | Implementation |
