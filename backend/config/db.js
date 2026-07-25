@@ -1,6 +1,13 @@
 const { Pool } = require('pg');
 require('dotenv').config();
 
+// Managed Postgres providers (Neon, Render Postgres, Supabase, etc.) require
+// SSL and typically use a certificate that isn't in Node's default trust
+// store for this kind of setup, so we relax certificate verification here.
+// Set DB_SSL=true in your deployment's environment variables to enable this;
+// leave it unset for local Postgres, which usually doesn't use SSL at all.
+const useSSL = process.env.DB_SSL === 'true';
+
 const pool = new Pool({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
@@ -9,7 +16,11 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   max: 20,
   idleTimeoutMillis: 30000,
+  // 10s rather than the previous 2s - some managed DB hosts (and even some
+  // local setups) take longer than 2s to complete the connection handshake,
+  // which caused real, confusing timeout errors during local development.
   connectionTimeoutMillis: 10000,
+  ssl: useSSL ? { rejectUnauthorized: false } : false,
 });
 
 pool.on('error', (err) => {
