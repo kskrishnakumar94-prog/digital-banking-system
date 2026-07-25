@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Backend (server.js)",
+      "program": "${workspaceFolder}/backend/server.js",
+      "cwd": "${workspaceFolder}/backend",
+      "envFile": "${workspaceFolder}/backend/.env",
+      "console": "integratedTerminal",
+      "restart": true,
+      "runtimeExecutable": "node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run DB Migration",
+      "program": "${workspaceFolder}/backend/config/migrate.js",
+      "cwd": "${workspaceFolder}/backend",
+      "envFile": "${workspaceFolder}/backend/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run DB Seed",
+      "program": "${workspaceFolder}/backend/config/seed.js",
+      "cwd": "${workspaceFolder}/backend",
+      "envFile": "${workspaceFolder}/backend/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Backend Tests",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--test", "tests/"],
+      "cwd": "${workspaceFolder}/backend",
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug Backend + Launch Frontend",
+      "configurations": ["Debug Backend (server.js)"],
+      "preLaunchTask": "start-frontend"
+    }
+  ]
+}

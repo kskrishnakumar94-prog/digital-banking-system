@@ -1,0 +1,16 @@
+{"ipAddress":"::1","level":"warn","message":"FRAUD ALERT [LOW] NEW_DEVICE - user:e22cd814-8249-42f9-a08f-a0206f53b572","timestamp":"2026-07-20T07:18:05.463Z","when":"2026-07-20T07:18:04.907Z"}
+{"amount":600000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:40:28.908Z","transferId":"transfer-1"}
+{"count":6,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:40:28.916Z","transferId":"transfer-3","windowMinutes":10}
+{"amount":1000000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:40:28.917Z","transferId":"transfer-4"}
+{"count":10,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:40:28.918Z","transferId":"transfer-4","windowMinutes":10}
+{"attempts":5,"email":"a@b.com","ipAddress":"127.0.0.1","level":"warn","message":"FRAUD ALERT [CRITICAL] LOGIN_BRUTE_FORCE - user:user-1","timestamp":"2026-07-20T07:40:28.972Z"}
+{"amount":600000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:47:01.893Z","transferId":"transfer-1"}
+{"count":6,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:47:01.901Z","transferId":"transfer-3","windowMinutes":10}
+{"amount":1000000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:47:01.903Z","transferId":"transfer-4"}
+{"count":10,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:47:01.904Z","transferId":"transfer-4","windowMinutes":10}
+{"attempts":5,"email":"a@b.com","ipAddress":"127.0.0.1","level":"warn","message":"FRAUD ALERT [CRITICAL] LOGIN_BRUTE_FORCE - user:user-1","timestamp":"2026-07-20T07:47:01.923Z"}
+{"ipAddress":"::1","level":"warn","message":"FRAUD ALERT [LOW] NEW_DEVICE - user:0b79ce70-55f6-4378-b236-189830c6a2fa","timestamp":"2026-07-20T08:03:23.193Z","when":"2026-07-20T08:03:23.188Z"}
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-20T14:27:07.025Z"}
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-22T14:54:58.355Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-22T15:02:48.896Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-24T15:36:04.445Z"}

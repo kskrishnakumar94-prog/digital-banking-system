@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: banking_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: digital_banking
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: your_db_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - banking_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    container_name: banking_backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PORT: 5000
+      NODE_ENV: production
+      TRUST_PROXY_HOPS: 0
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: digital_banking
+      DB_USER: postgres
+      DB_PASSWORD: your_db_password
+      JWT_SECRET: change_this_to_a_long_random_secret
+      JWT_EXPIRES_IN: 15m
+      JWT_REFRESH_SECRET: change_this_to_another_long_random_secret
+      CORS_ORIGIN: http://localhost:3000
+      LARGE_TXN_THRESHOLD: 500000
+      MAX_LOGIN_ATTEMPTS: 5
+      LOGIN_LOCKOUT_MINUTES: 15
+      VELOCITY_WINDOW_MINUTES: 10
+      VELOCITY_MAX_TXNS: 5
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/logs:/usr/src/app/logs
+
+  frontend:
+    build: ./frontend
+    container_name: banking_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"
+
+volumes:
+  banking_pg_data:
+
+# --------------------------------------------------------------------
+# Usage:
+#   docker-compose up -d --build      # start db + backend + frontend
+#   docker-compose exec backend npm run migrate   # run schema migration
+#   docker-compose exec backend npm run seed      # (optional) load demo data
+#   docker-compose logs -f backend    # tail backend logs
+#   docker-compose down               # stop everything
+#   docker-compose down -v            # stop + wipe DB volume
+# --------------------------------------------------------------------

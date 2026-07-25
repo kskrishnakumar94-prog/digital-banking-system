@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ckolkman.vscode-postgres",
+    "humao.rest-client",
+    "eamodio.gitlens",
+    "christian-kohler.npm-intellisense",
+    "mikestead.dotenv"
+  ]
+}

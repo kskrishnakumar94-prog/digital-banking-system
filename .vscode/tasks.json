@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "start-frontend",
+      "type": "shell",
+      "command": "npm start",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "install-backend-deps",
+      "type": "shell",
+      "command": "npm install",
+      "options": { "cwd": "${workspaceFolder}/backend" }
+    },
+    {
+      "label": "install-frontend-deps",
+      "type": "shell",
+      "command": "npm install",
+      "options": { "cwd": "${workspaceFolder}/frontend" }
+    },
+    {
+      "label": "db-migrate",
+      "type": "shell",
+      "command": "npm run migrate",
+      "options": { "cwd": "${workspaceFolder}/backend" }
+    },
+    {
+      "label": "db-seed",
+      "type": "shell",
+      "command": "npm run seed",
+      "options": { "cwd": "${workspaceFolder}/backend" }
+    }
+  ]
+}

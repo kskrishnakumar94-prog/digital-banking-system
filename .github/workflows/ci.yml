@@ -1,0 +1,99 @@
+name: CI
+
+# Runs on every push and pull request so a broken build is caught before
+# it's merged, not discovered later by a person running the project.
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['**']
+
+jobs:
+  backend:
+    name: Backend (lint + test)
+    runs-on: ubuntu-latest
+
+    # A real Postgres instance, matching what the app expects in
+    # backend/.env.example - this is the same schema.sql a developer would
+    # run locally, so CI is exercising the actual migration, not a mock.
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: digital_banking_test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres_test_password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: backend/package.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Apply database schema
+        run: node config/migrate.js
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: digital_banking_test
+          DB_USER: postgres
+          DB_PASSWORD: postgres_test_password
+
+      - name: Run unit tests
+        run: npm test
+        env:
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_NAME: digital_banking_test
+          DB_USER: postgres
+          DB_PASSWORD: postgres_test_password
+          JWT_SECRET: ci_test_secret_do_not_use_in_prod
+          JWT_REFRESH_SECRET: ci_test_refresh_secret_do_not_use_in_prod
+
+  frontend:
+    name: Frontend (build check)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+        env:
+          # CRA treats ESLint warnings as build failures when CI=true.
+          # Set to false here so a stylistic warning doesn't fail the
+          # pipeline - tighten this once the codebase is warning-free.
+          CI: false

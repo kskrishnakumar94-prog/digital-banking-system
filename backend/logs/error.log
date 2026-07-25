@@ -1,0 +1,4 @@
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-20T14:27:07.025Z"}
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-22T14:54:58.355Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-22T15:02:48.896Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-24T15:36:04.445Z"}

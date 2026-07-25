@@ -1,0 +1,537 @@
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T06:32:22.382Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T06:32:22.387Z"}
+{"level":"info","message":"GET /api/health","timestamp":"2026-07-20T06:47:27.365Z"}
+{"level":"info","message":"GET /api/health/deep","timestamp":"2026-07-20T06:47:43.264Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:16:21.457Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:16:22.961Z"}
+{"level":"info","message":"POST /api/auth/refresh","timestamp":"2026-07-20T07:16:24.363Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:16:26.113Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:16:26.119Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:16:26.681Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:16:29.165Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:16:38.795Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:16:38.901Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:16:39.226Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:16:40.980Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:16:55.307Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:16:55.360Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:17:19.114Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:17:19.118Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:17:19.572Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:17:19.663Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:17:21.294Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:17:21.298Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:17:27.076Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:17:56.935Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:18:05.379Z"}
+{"ipAddress":"::1","level":"warn","message":"FRAUD ALERT [LOW] NEW_DEVICE - user:e22cd814-8249-42f9-a08f-a0206f53b572","timestamp":"2026-07-20T07:18:05.463Z","when":"2026-07-20T07:18:04.907Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: New Login Detected\nA new login to your account was detected from IP ::1 at 2026-07-20T07:18:04.907Z. If this wasn't you, please secure your account.","timestamp":"2026-07-20T07:18:05.666Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:18:05.846Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:18:19.414Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:18:19.416Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:18:19.457Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:18:19.461Z"}
+{"level":"info","message":"POST /api/transfers","timestamp":"2026-07-20T07:18:42.746Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:18:57.587Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:18:57.641Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:19:08.291Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:19:08.300Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:19:08.311Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:19:08.542Z"}
+{"level":"info","message":"POST /api/transfers","timestamp":"2026-07-20T07:19:20.227Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:20:06.538Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:20:22.612Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:23.170Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:23.189Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:20:29.046Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:20:29.048Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:20:29.071Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:20:29.075Z"}
+{"level":"info","message":"POST /api/transfers","timestamp":"2026-07-20T07:20:43.302Z"}
+{"level":"info","message":"Transfer bdb5465e-bdd4-4523-a408-0b01b0cd722d: 10000 from 392124037761 to 702818643757","timestamp":"2026-07-20T07:20:43.693Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Transfer Sent\nYou sent 10000. Your new balance is 140000.00.","timestamp":"2026-07-20T07:20:43.878Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Transfer Received\nYou received 10000. Your new balance is 85000.00.","timestamp":"2026-07-20T07:20:43.878Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:47.073Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:47.086Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:58.639Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:20:58.644Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:06.676Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:06.684Z"}
+{"level":"info","message":"GET /api/accounts/e007ff6d-4b46-451d-a8c6-634c20e34556/transactions/export","timestamp":"2026-07-20T07:21:09.140Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:52.658Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:21:52.914Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:52.966Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:21:53.060Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:21:53.909Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:53.978Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:21:53.992Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:21:54.219Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:21:56.127Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:21:56.144Z"}
+{"level":"info","message":"POST /api/auth/2fa/setup","timestamp":"2026-07-20T07:22:37.879Z"}
+{"level":"info","message":"POST /api/auth/2fa/confirm","timestamp":"2026-07-20T07:27:08.314Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Two-Factor Authentication Enabled\nTwo-Factor Authentication has been enabled on your account.","timestamp":"2026-07-20T07:27:08.532Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:28:05.768Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:28:33.547Z"}
+{"level":"info","message":"POST /api/auth/login/verify-2fa","timestamp":"2026-07-20T07:29:38.346Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:29:38.588Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:29:38.601Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:30:18.563Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:30:18.642Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:30:19.309Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:30:19.322Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:30:19.325Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:30:19.333Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:30:20.111Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:30:20.127Z"}
+{"level":"info","message":"GET /api/fraud/login-attempts","timestamp":"2026-07-20T07:30:23.329Z"}
+{"level":"info","message":"GET /api/fraud/my-alerts","timestamp":"2026-07-20T07:30:23.362Z"}
+{"level":"info","message":"GET /api/fraud/my-alerts","timestamp":"2026-07-20T07:30:23.487Z"}
+{"level":"info","message":"GET /api/fraud/login-attempts","timestamp":"2026-07-20T07:30:23.518Z"}
+{"level":"info","message":"POST /api/auth/2fa/disable","timestamp":"2026-07-20T07:30:29.350Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Two-Factor Authentication Disabled\nTwo-Factor Authentication has been disabled on your account. We recommend keeping it enabled for better security.","timestamp":"2026-07-20T07:30:29.355Z"}
+{"amount":600000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:40:28.908Z","transferId":"transfer-1"}
+{"count":6,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:40:28.916Z","transferId":"transfer-3","windowMinutes":10}
+{"amount":1000000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:40:28.917Z","transferId":"transfer-4"}
+{"count":10,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:40:28.918Z","transferId":"transfer-4","windowMinutes":10}
+{"attempts":5,"email":"a@b.com","ipAddress":"127.0.0.1","level":"warn","message":"FRAUD ALERT [CRITICAL] LOGIN_BRUTE_FORCE - user:user-1","timestamp":"2026-07-20T07:40:28.972Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T07:44:14.096Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T07:44:14.115Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T07:46:41.204Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T07:46:41.208Z"}
+{"amount":600000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:47:01.893Z","transferId":"transfer-1"}
+{"count":6,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:47:01.901Z","transferId":"transfer-3","windowMinutes":10}
+{"amount":1000000,"level":"warn","message":"FRAUD ALERT [HIGH] LARGE_AMOUNT - user:user-1","threshold":500000,"timestamp":"2026-07-20T07:47:01.903Z","transferId":"transfer-4"}
+{"count":10,"level":"warn","message":"FRAUD ALERT [MEDIUM] VELOCITY - user:user-1","timestamp":"2026-07-20T07:47:01.904Z","transferId":"transfer-4","windowMinutes":10}
+{"attempts":5,"email":"a@b.com","ipAddress":"127.0.0.1","level":"warn","message":"FRAUD ALERT [CRITICAL] LOGIN_BRUTE_FORCE - user:user-1","timestamp":"2026-07-20T07:47:01.923Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T07:50:17.020Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T07:50:17.025Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:51:32.318Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:51:32.385Z"}
+{"level":"info","message":"POST /api/auth/refresh","timestamp":"2026-07-20T07:51:32.700Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:51:33.096Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:51:33.294Z"}
+{"level":"info","message":"POST /api/accounts/fixed-deposit","timestamp":"2026-07-20T07:52:06.102Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:52:06.865Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:52:17.349Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:52:17.489Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:52:37.776Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:52:52.337Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:52:53.150Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:52:53.188Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:02.805Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:02.821Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:09.335Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:09.349Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:10.843Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:10.850Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:10.852Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:10.863Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:12.003Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:12.019Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:15.559Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:15.567Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:23.331Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:23.341Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:24.102Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:53:24.105Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:24.110Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T07:53:24.292Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:25.264Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:25.279Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:26.078Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:26.090Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:53:26.103Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:53:26.107Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:27.728Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:27.746Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:53:37.875Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:53:37.880Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:37.978Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:37.985Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:53:41.567Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T07:53:41.579Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:41.699Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:53:41.704Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:54:10.250Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:54:10.264Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:54:25.665Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:54:30.430Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:54:44.041Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:54:44.542Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:54:44.577Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:55:07.140Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:55:07.522Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:55:07.527Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:55:15.571Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:55:15.576Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:55:17.196Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:55:17.205Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:55:24.445Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:55:36.713Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:55:36.723Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:55:43.647Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:56:04.938Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:56:07.440Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:56:07.454Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:56:13.983Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:56:13.991Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:56:22.751Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:56:27.008Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:56:27.024Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:56:43.401Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:56:43.403Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T07:56:43.407Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:56:43.410Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:57:04.816Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:57:04.825Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:57:08.661Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:57:25.329Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:57:28.419Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:57:28.424Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T07:57:36.080Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:57:50.812Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:57:54.227Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:57:54.236Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:57:56.889Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T07:57:56.898Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:58:04.408Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T07:58:20.982Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:58:24.936Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T07:58:24.955Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:58:26.510Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:58:27.212Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T07:58:27.629Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T08:01:02.050Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:07.082Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:07.215Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:21.477Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:21.486Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:01:24.836Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:01:24.842Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:34.980Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:34.988Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T08:01:37.656Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T08:01:49.946Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:55.012Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:01:55.037Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:01:58.837Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:01:58.891Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T08:02:05.135Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:05.467Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:11.644Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:11.647Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:11.659Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:11.664Z"}
+{"level":"info","message":"POST /api/transfers","timestamp":"2026-07-20T08:02:25.701Z"}
+{"level":"info","message":"Transfer 71a8082c-3725-4c21-a4a7-860d4da7d481: 10000 from 392124037761 to 702818643757","timestamp":"2026-07-20T08:02:25.809Z"}
+{"level":"info","message":"POST /api/beneficiaries","timestamp":"2026-07-20T08:02:25.883Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Transfer Sent\nYou sent 10000. Your new balance is 100000.00.","timestamp":"2026-07-20T08:02:25.918Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Transfer Received\nYou received 10000. Your new balance is 95000.00.","timestamp":"2026-07-20T08:02:25.921Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:33.917Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:33.927Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T08:02:37.010Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T08:02:37.014Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:37.061Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:37.066Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:38.525Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:38.527Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T08:02:38.539Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:38.607Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:42.913Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T08:02:42.922Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:02:44.905Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:02:44.922Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T08:03:04.479Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T08:03:17.801Z"}
+{"ipAddress":"::1","level":"warn","message":"FRAUD ALERT [LOW] NEW_DEVICE - user:0b79ce70-55f6-4378-b236-189830c6a2fa","timestamp":"2026-07-20T08:03:23.193Z","when":"2026-07-20T08:03:23.188Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: admin@example.com | Subject: New Login Detected\nA new login to your account was detected from IP ::1 at 2026-07-20T08:03:23.188Z. If this wasn't you, please secure your account.","timestamp":"2026-07-20T08:03:23.195Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:03:23.308Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T08:03:23.320Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:28.813Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:28.816Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:28.949Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:29.050Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:03:42.476Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:03:42.625Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:46.643Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:46.646Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:46.665Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:46.673Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:47.861Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:47.880Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:53.806Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:53.809Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:03:53.819Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:53.827Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:59.397Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:03:59.405Z"}
+{"level":"info","message":"PATCH /api/fraud/admin/alerts/7e81bba7-6089-424c-aa6c-873212331bbb/resolve","timestamp":"2026-07-20T08:04:05.006Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:04:05.015Z"}
+{"level":"info","message":"PATCH /api/fraud/admin/alerts/ae723e1e-5805-4c7e-a276-aaa0934a2294/resolve","timestamp":"2026-07-20T08:04:05.988Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:04:05.995Z"}
+{"level":"info","message":"PATCH /api/fraud/admin/alerts/e4791c7f-c3d6-4467-b1ed-baf9e321ecff/resolve","timestamp":"2026-07-20T08:04:06.372Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:04:06.380Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:04:08.142Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:04:08.145Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-20T08:04:08.158Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-20T08:04:08.161Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:14.515Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:14.528Z"}
+{"level":"info","message":"PATCH /api/admin/users/e22cd814-8249-42f9-a08f-a0206f53b572/status","timestamp":"2026-07-20T08:04:23.561Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Account Status Updated\nYour account status has been changed to \"suspended\" by an administrator.","timestamp":"2026-07-20T08:04:23.565Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:23.572Z"}
+{"level":"info","message":"PATCH /api/admin/users/e22cd814-8249-42f9-a08f-a0206f53b572/status","timestamp":"2026-07-20T08:04:28.246Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Account Status Updated\nYour account status has been changed to \"active\" by an administrator.","timestamp":"2026-07-20T08:04:28.249Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:28.258Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T08:04:33.848Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T08:04:33.855Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:33.934Z"}
+{"level":"info","message":"GET /api/admin/users","timestamp":"2026-07-20T08:04:33.993Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T14:24:56.866Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T14:24:56.931Z"}
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-20T14:27:07.025Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-20T14:29:02.818Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-20T14:29:02.823Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T14:32:36.233Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T14:32:36.433Z"}
+{"level":"info","message":"POST /api/auth/refresh","timestamp":"2026-07-20T14:32:37.009Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T14:32:38.178Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-20T14:32:38.185Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:32:38.417Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:32:38.690Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:35:58.167Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:35:58.555Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:36:02.038Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:36:02.087Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T14:36:02.130Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-20T14:36:02.289Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:36:03.886Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-20T14:36:03.893Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T14:36:03.897Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-20T14:36:04.210Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:36:05.626Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:36:05.642Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-20T14:36:10.163Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-20T14:36:26.238Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:36:27.270Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-20T14:36:27.283Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-22T14:53:48.239Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-22T14:53:48.327Z"}
+{"level":"error","message":"Scheduler: failed to query due transfers - Connection terminated due to connection timeout","timestamp":"2026-07-22T14:54:58.355Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-22T14:58:18.104Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:58:21.831Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:58:22.318Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:58:31.149Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:58:31.153Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:58:31.162Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:58:31.263Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:58:35.472Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:58:35.481Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-22T14:58:37.457Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:58:37.468Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:58:37.475Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-22T14:58:37.746Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-22T14:59:08.826Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:59:09.434Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T14:59:09.451Z"}
+{"level":"info","message":"POST /api/transfers","timestamp":"2026-07-22T14:59:36.990Z"}
+{"level":"info","message":"Transfer 6c41b103-e7ec-4f9a-8c73-27a0e5a169e9: 10000 from 392124037761 to 702818643757","timestamp":"2026-07-22T14:59:37.289Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Transfer Sent\nYou sent 10000. Your new balance is 90000.00.","timestamp":"2026-07-22T14:59:37.383Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Transfer Received\nYou received 10000. Your new balance is 105000.00.","timestamp":"2026-07-22T14:59:37.384Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:41.802Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:59:41.807Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:41.826Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:59:41.829Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:44.696Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-22T14:59:44.709Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:44.717Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-22T14:59:44.722Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:45.669Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:59:45.677Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T14:59:45.686Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T14:59:45.688Z"}
+{"level":"info","message":"POST /api/scheduled-transfers","timestamp":"2026-07-22T15:00:34.342Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:00:34.482Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:00:34.485Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:00:42.578Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:00:42.587Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:00:42.614Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:00:42.618Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:00:42.625Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:00:42.631Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:00:54.723Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:00:54.730Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:00:54.764Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:00:54.776Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:01:04.214Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:01:04.219Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:01:04.259Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:01:04.261Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:01:04.273Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:01:04.282Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:06.662Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:06.671Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:06.707Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:06.712Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:06.720Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:06.812Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:10.838Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:10.843Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:10.878Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:10.880Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:10.889Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:10.893Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:15.373Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:15.382Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:15.418Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:15.432Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:17.039Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:17.057Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:17.087Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:17.092Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:25.203Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:25.207Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:25.245Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:25.248Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:25.257Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:25.265Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:32.550Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:32.557Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:32.613Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:32.614Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:32.618Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:32.628Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:33.603Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:33.626Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:33.655Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:33.656Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:33.665Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:33.668Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:35.672Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:35.682Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:35.714Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:35.718Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:35.723Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:35.730Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:39.009Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:39.013Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:39.051Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:39.062Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:39.823Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:39.831Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:39.865Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:39.871Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:41.510Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:41.513Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:41.525Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:41.530Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:43.416Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:02:43.424Z"}
+{"level":"info","message":"Transfer fe917732-9ae7-4863-b0c2-ef52d937ca82: 1000 from 392124037761 to 702818643757","timestamp":"2026-07-22T15:02:48.461Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Transfer Sent\nYou sent 1000. Your new balance is 89000.00.","timestamp":"2026-07-22T15:02:48.466Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Transfer Received\nYou received 1000. Your new balance is 106000.00.","timestamp":"2026-07-22T15:02:48.466Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-22T15:02:48.896Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:55.258Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:02:55.262Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:55.297Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:55.303Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:02:55.308Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:02:55.991Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:00.510Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:00.517Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:03:00.551Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:03:00.552Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:03:00.556Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:03:00.566Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:03.787Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:03.795Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:03:03.829Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:03:03.833Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:03:03.839Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:03:03.842Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:09.170Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:09.180Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:09.216Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:09.220Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:10.102Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-22T15:03:10.108Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:10.139Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:10.150Z"}
+{"level":"info","message":"DELETE /api/scheduled-transfers/6ddf924b-c416-4d09-a3ce-a52808564526","timestamp":"2026-07-22T15:03:13.840Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-22T15:03:13.857Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-22T15:03:13.859Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2026-07-22T15:03:17.904Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-22T15:03:31.674Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:32.116Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-22T15:03:32.144Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-22T15:03:34.775Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-22T15:03:34.776Z"}
+{"level":"info","message":"GET /api/fraud/admin/alerts","timestamp":"2026-07-22T15:03:34.963Z"}
+{"level":"info","message":"GET /api/admin/stats","timestamp":"2026-07-22T15:03:35.019Z"}
+{"level":"info","message":"🚀 Digital Banking API running on port 5000","timestamp":"2026-07-24T15:14:04.025Z"}
+{"level":"info","message":"Scheduled-transfer worker started (checking every 60s).","timestamp":"2026-07-24T15:14:04.085Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:18:27.757Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:18:27.963Z"}
+{"level":"info","message":"POST /api/auth/refresh","timestamp":"2026-07-24T15:18:28.964Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:18:30.041Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:18:30.087Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:18:33.288Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:18:33.977Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2026-07-24T15:26:08.805Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:26:12.421Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:26:12.566Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:29:58.434Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:29:58.630Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:30:08.011Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:30:08.015Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:30:08.021Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:30:08.141Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:34:43.423Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:34:43.425Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:34:43.429Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:34:43.434Z"}
+{"level":"info","message":"POST /api/auth/refresh","timestamp":"2026-07-24T15:34:43.437Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:34:43.566Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:34:43.570Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:34:43.603Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:34:43.724Z"}
+{"level":"info","message":"POST /api/scheduled-transfers","timestamp":"2026-07-24T15:35:28.540Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:35:28.655Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:35:28.658Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:35:36.556Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:35:36.561Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:35:36.599Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:35:36.613Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:35:39.492Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:35:39.504Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:35:39.538Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:35:39.544Z"}
+{"level":"info","message":"Transfer 05db286c-504e-4e4e-9eb0-6173d112f550: 1000 from 392124037761 to 702818643757","timestamp":"2026-07-24T15:36:04.275Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: alice@example.com | Subject: Transfer Sent\nYou sent 1000. Your new balance is 88000.00.","timestamp":"2026-07-24T15:36:04.378Z"}
+{"level":"info","message":"[EMAIL:fallback-console] To: bob@example.com | Subject: Transfer Received\nYou received 1000. Your new balance is 107000.00.","timestamp":"2026-07-24T15:36:04.379Z"}
+{"level":"error","message":"Scheduler tick failed: inconsistent types deduced for parameter $1","timestamp":"2026-07-24T15:36:04.445Z"}
+{"level":"info","message":"GET /api/fraud/login-attempts","timestamp":"2026-07-24T15:36:26.498Z"}
+{"level":"info","message":"GET /api/fraud/my-alerts","timestamp":"2026-07-24T15:36:26.500Z"}
+{"level":"info","message":"GET /api/fraud/login-attempts","timestamp":"2026-07-24T15:36:26.595Z"}
+{"level":"info","message":"GET /api/fraud/my-alerts","timestamp":"2026-07-24T15:36:26.703Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:36:31.161Z"}
+{"level":"info","message":"GET /api/beneficiaries","timestamp":"2026-07-24T15:36:31.178Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:36:32.416Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:36:32.421Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:36:32.429Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:36:32.487Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:35.899Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:35.904Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:36:35.946Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:36:35.947Z"}
+{"level":"info","message":"GET /api/accounts","timestamp":"2026-07-24T15:36:35.965Z"}
+{"level":"info","message":"GET /api/scheduled-transfers","timestamp":"2026-07-24T15:36:35.969Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:41.890Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:41.899Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:36:41.940Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:36:41.948Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:42.826Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2026-07-24T15:36:42.832Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:36:42.860Z"}
+{"level":"info","message":"GET /api/accounts/dashboard","timestamp":"2026-07-24T15:36:42.868Z"}
