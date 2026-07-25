@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/kskrishnakumar94-prog/digital-banking-system/actions/workflows/ci.yml/badge.svg)](https://github.com/kskrishnakumar94-prog/digital-banking-system/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-
+🔗 **[Live Demo](https://digital-banking-system-94j9rdg98.vercel.app)** — try it yourself with `alice@example.com` / `Password123`
 A full-stack digital banking web application built with **React**, **Node.js/Express**, and **PostgreSQL**.
 
 > **New to this repo?** Read [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the design decisions behind the atomicity/idempotency/auth model, and an honest list of what's still missing for real production use (scaling gaps, compliance, monitoring). It's written to be the first thing a reviewer or interviewer reads.
